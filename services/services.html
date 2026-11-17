@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex">
+        <title>Services &amp; Pricing | Eyes of Ethics</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../styles.css">
+        <style>
+            .pricing-page {
+                padding-block: clamp(2.5rem, 6vw, 6rem);
+            }
+
+            .pricing-intro {
+                max-width: 68ch;
+                margin-bottom: 3rem;
+            }
+
+            .pricing-intro h1 {
+                margin-block: .6rem 1rem;
+                font: 900 clamp(2.3rem, 7vw, 5.75rem)/1 var(--display);
+                letter-spacing: -.045em;
+            }
+
+            .draft-label,
+            .price {
+                color: var(--blue);
+                font-weight: 800;
+            }
+
+            .price-group {
+                margin-bottom: 2.75rem;
+            }
+
+            .price-group h2 {
+                font-size: clamp(1.45rem, 4vw, 2.35rem);
+                letter-spacing: -.025em;
+            }
+
+            .price-grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+                gap: 1rem;
+                margin: 1rem 0 0;
+                padding: 0;
+                list-style: none;
+            }
+
+            .price-card,
+            .pricing-contact {
+                padding: clamp(1rem, 3vw, 1.6rem);
+                border: 1px solid var(--line);
+                background: var(--panel);
+            }
+
+            .price-card p + p {
+                margin-top: .5rem;
+                color: var(--muted);
+            }
+
+            .pricing-contact h2 {
+                font-size: clamp(1.45rem, 4vw, 2.35rem);
+            }
+
+            .pricing-contact p {
+                max-width: 65ch;
+                margin-block: .85rem;
+            }
+        </style>
+    </head>
+    <body id="top">
+        <a class="skip" href="#main">Skip to main content</a>
+        <header class="site-header shell">
+            <a class="wordmark" href="../index.html">
+                <span class="mark" aria-hidden="true"></span>
+                Eyes of Ethics
+            </a>
+            <nav aria-label="Main navigation">
+                <a href="../index.html#work">Portfolio</a>
+                <a href="./index.html" aria-current="page">Services</a>
+                <a href="../index.html#quick-orders">Checkout</a>
+                <a class="nav-cta" href="../index.html#inquire">Inquire</a>
+            </nav>
+        </header>
+
+        <main id="main" class="pricing-page shell" tabindex="-1">
+            <div class="pricing-intro">
+                <p class="draft-label">Sample rates for review</p>
+                <h1>Services &amp; Pricing</h1>
+                <p>
+                    Photography for people, brands, and events. Packages include the listed number 
+                    of edited digital files delivered through a private online gallery.
+                </p>
+            </div>
+
+            <section class="price-group" aria-labelledby="group-1">
+                <h2 id="group-1">Portrait sessions</h2>
+                <ul class="price-grid">
+                    <li class="price-card">
+                        <h3>Individual headshots</h3>
+                        <p class="price">$175</p>
+                        <p>25 minutes, one look, and 3 retouched images.</p>
+                    </li>
+                    <li class="price-card">
+                        <h3>Personal branding &amp; portfolios</h3>
+                        <p class="price">$350</p>
+                        <p>
+                            60 minutes, up to two looks, and 10 retouched images. Suited to artists, 
+                            entrepreneurs, and dating or modeling portfolios.
+                        </p>
+                    </li>
+                    <li class="price-card">
+                        <h3>Family, couples &amp; milestones</h3>
+                        <p class="price">$325</p>
+                        <p>
+                            60 minutes and 20 edited images. For couples, engagements, maternity, families, 
+                            seniors, and graduates. Newborn sessions are quoted separately.
+                        </p>
+                    </li>
+                    <li class="price-card">
+                        <h3>Lifestyle &amp; in-home</h3>
+                        <p class="price">$375</p>
+                        <p>
+                            Up to 90 minutes at home and 25 edited images, with time for candid and lightly 
+                            directed photos.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="price-group" aria-labelledby="group-2">
+                <h2 id="group-2">Business &amp; commercial</h2>
+                <ul class="price-grid">
+                    <li class="price-card">
+                        <h3>Corporate headshots &amp; PR</h3>
+                        <p class="price">From $550</p>
+                        <p>
+                            Up to five people, one on-site setup, and 2 retouched images per person. 
+                            Executive portraits, larger rosters, and promotional media can be quoted
+                            by scope.
+                        </p>
+                    </li>
+                    <li class="price-card">
+                        <h3>Product &amp; e-commerce</h3>
+                        <p class="price">From $350</p>
+                        <p>
+                            Up to five products and 2 edited studio views per product on a simple setup. 
+                            Lifestyle sets, apparel on models, props, and additional angles are quoted 
+                            separately.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="price-group" aria-labelledby="group-3">
+                <h2 id="group-3">Events &amp; weddings</h2>
+                <ul class="price-grid">
+                    <li class="price-card">
+                        <h3>Parties &amp; milestones</h3>
+                        <p class="price">From $450</p>
+                        <p>
+                            Up to two hours of coverage and at least 40 edited images. For birthdays, 
+                            anniversaries, reunions, and themed celebrations.
+                        </p>
+                    </li>
+                    <li class="price-card">
+                        <h3>Corporate &amp; commercial events</h3>
+                        <p class="price">From $750</p>
+                        <p>
+                            Up to three hours of coverage and at least 60 edited images. For conferences, 
+                            trade shows, galas, and nightlife.
+                        </p>
+                    </li>
+                    <li class="price-card">
+                        <h3>Elopements</h3>
+                        <p class="price">From $950</p>
+                        <p>
+                            Up to three hours and at least 100 edited images covering the ceremony, couple 
+                            portraits, and candid moments.
+                        </p>
+                    </li>
+                    <li class="price-card">
+                        <h3>Weddings</h3>
+                        <p class="price">From $2,500</p>
+                        <p>
+                            Up to eight hours and at least 350 edited images. Can include getting ready, 
+                            ceremony, wedding party portraits, and reception coverage within the booked 
+                            time. Engagement sessions are available separately.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="price-group" aria-labelledby="group-4">
+                <h2 id="group-4">Photo editing &amp; post-production</h2>
+                <ul class="price-grid">
+                    <li class="price-card">
+                        <h3>Color correction &amp; grading</h3>
+                        <p class="price">From $75</p>
+                        <p>
+                            Color and exposure adjustments for up to 15 client-supplied images.
+                        </p>
+                    </li>
+                    <li class="price-card">
+                        <h3>Detailed retouching</h3>
+                        <p class="price">From $30 per image</p>
+                        <p>
+                            For requested skin, wardrobe, background, or product cleanup. Extensive edits 
+                            and compositing are quoted separately.
+                        </p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="pricing-contact" aria-labelledby="quote-title">
+                <h2 id="quote-title">Request a quote</h2>
+                <p>
+                    Share your date, location, and how you’ll use the photos. Studio rentals, travel, 
+                    rush delivery, and expanded commercial usage are quoted separately when applicable.
+                </p>
+                <a class="button" href="../index.html#inquire">Inquire about a shoot</a>
+            </section>
+        </main>
+
+        <footer class="site-footer shell">
+            <a class="wordmark" href="../index.html">
+                <span class="mark" aria-hidden="true"></span>
+                Eyes of Ethics
+            </a>
+            <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </footer>
+    </body>
+</html>
