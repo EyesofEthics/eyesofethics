@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Photography by Ethics, from creative portraits and editorials to live events and cosplay.">
+        <meta name="theme-color" content="#0b1018">
+        <title>Eyes of Ethics | Photography by Ethics</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo+Black&amp;family=Inter:wght@400;600;700;800&amp;display=swap">
+        <link rel="stylesheet" href="styles.css">
+        <script src="config.js" defer></script>
+        <script src="site.js" defer></script>
+    </head>
+    <body id="top">
+        <a class="skip" href="#main">Skip to main content</a>
+
+        <header class="site-header shell">
+            <a class="wordmark" href="#top">
+                <span class="mark" aria-hidden="true"></span>
+                Eyes of Ethics
+            </a>
+            <nav aria-label="Main navigation">
+                <a href="#work">Portfolio</a>
+                <a href="#sessions">Sessions</a>
+                <a href="#quick-orders">Checkout</a> fgfgerg
+                <a class="nav-cta" href="#inquire">Inquire</a>
+            </nav>
+        </header>
+
+        <main id="main" tabindex="-1">
+            <section class="hero" aria-labelledby="hero-title">
+                <div class="hero-inner shell">
+                    <div class="hero-copy">
+                        <h1 id="hero-title">Eyes of <span>Ethics</span></h1>
+                        <p class="lede">Portraits, editorials, and live photography by Ethics.</p>
+                        <div class="actions">
+                            <a class="button" href="#inquire">Inquire about a shoot</a>
+                            <a class="text-link" href="#work">View portfolio <span aria-hidden="true">↓</span></a>
+                        </div>
+                    </div>
+
+                    <div class="hero-images">
+                        <img
+                            src="assets/DSC06698-1440.webp"
+                            width="1440"
+                            height="1920"
+                            srcset="assets/DSC06698-600.webp 600w, assets/DSC06698-1440.webp 1440w"
+                            sizes="(max-width: 740px) 66vw, 38vw"
+                            alt="A portrait in profile framed by an electric blue ring light"
+                            fetchpriority="high"
+                        >
+                        <img
+                            src="assets/DSC06768-600.webp"
+                            width="600"
+                            height="800"
+                            alt="Two people in graphic tees pose back to back under blue light"
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <section class="archive" id="work" aria-labelledby="work-title">
+                <div class="shell">
+                    <div class="section-heading">
+                        <h2 id="work-title">Selected work</h2>
+                    </div>
+
+                    <div class="filters" role="group" aria-label="Filter portfolio" hidden>
+                        <button type="button" data-filter="All" aria-pressed="true">All work</button>
+                        <button type="button" data-filter="Portraits" aria-pressed="false">Portraits</button>
+                        <button type="button" data-filter="Editorial" aria-pressed="false">Editorial</button>
+                        <button type="button" data-filter="Live &amp; Events" aria-pressed="false">Live &amp; Events</button>
+                        <button type="button" data-filter="Cosplay" aria-pressed="false">Cosplay</button>
+                    </div>
+                    <p class="sr-only" id="gallery-status" role="status"></p>
+
+                    <div class="gallery">
+                    <figure class="frame" data-category="Editorial">
+                        <a href="assets/DSC06698-1440.webp" aria-labelledby="title-1" aria-describedby="photo-1">
+                            <img
+                                id="photo-1"
+                                src="assets/DSC06698-600.webp"
+                                width="600"
+                                height="800"
+                                alt="Side profile in glasses against a blue ring light"
+                                width="600"
+                                height="800"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-1">Blue Hour</span>
+                            <small>Editorial</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Live &amp; Events">
+                        <a href="assets/IMG_2358-1440.webp" aria-labelledby="title-2" aria-describedby="photo-2">
+                            <img
+                                id="photo-2"
+                                src="assets/IMG_2358-600.webp"
+                                alt="Performer holding a microphone under orange spotlights"
+                                width="600"
+                                height="900"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-2">In the Spotlight</span>
+                            <small>Live &amp; Events</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Editorial">
+                        <a href="assets/IMG_0804-1440.webp" aria-labelledby="title-3" aria-describedby="photo-3">
+                            <img
+                                id="photo-3"
+                                src="assets/IMG_0804-600.webp"
+                                alt="Wide-angle portrait between rows of orange chairs"
+                                width="600"
+                                height="800"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-3">Between the Lines</span>
+                            <small>Editorial</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Portraits">
+                        <a href="assets/ash1-1440.webp" aria-labelledby="title-4" aria-describedby="photo-4">
+                            <img
+                                id="photo-4"
+                                src="assets/ash1-600.webp"
+                                alt="Smiling portrait with bright red hair and black glasses"
+                                width="600"
+                                height="900"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-4">Scarlet Studio</span>
+                            <small>Portraits</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Editorial">
+                        <a href="assets/IMG_0892-1440.webp" aria-labelledby="title-5" aria-describedby="photo-5">
+                            <img
+                                id="photo-5"
+                                src="assets/IMG_0892-600.webp"
+                                alt="Two people making frames with their hands in a red room"
+                                width="600"
+                                height="801"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-5">Frame Within a Frame</span>
+                            <small>Editorial</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Live &amp; Events">
+                        <a href="assets/IMG00094-1440.webp" aria-labelledby="title-6" aria-describedby="photo-6">
+                            <img
+                                id="photo-6"
+                                src="assets/IMG00094-600.webp"
+                                alt="A kneeling proposal beside roses in a red restaurant booth"
+                                width="600"
+                                height="801"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-6">The Proposal</span>
+                            <small>Live &amp; Events</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Cosplay">
+                        <a href="assets/IMG_8602-1440.webp" aria-labelledby="title-7" aria-describedby="photo-7">
+                            <img
+                                id="photo-7"
+                                src="assets/IMG_8602-600.webp"
+                                alt="Cosplayer in purple holding up a grin beneath a wide hat"
+                                width="600"
+                                height="900"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-7">Gold Grin</span>
+                            <small>Cosplay</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Portraits">
+                        <a href="assets/IMG_4304-1440.webp" aria-labelledby="title-8" aria-describedby="photo-8">
+                            <img
+                                id="photo-8"
+                                src="assets/IMG_4304-600.webp"
+                                alt="Person in black glasses casting a sharp shadow on a pale blue wall"
+                                width="600"
+                                height="800"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-8">Hard Light</span>
+                            <small>Portraits</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Live &amp; Events">
+                        <a href="assets/IMG_4020-1440.webp" aria-labelledby="title-9" aria-describedby="photo-9">
+                            <img
+                                id="photo-9"
+                                src="assets/IMG_4020-600.webp"
+                                alt="Person in a red varsity jacket framing the lens outdoors"
+                                width="600"
+                                height="800"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-9">Outside the Frame</span>
+                            <small>Live &amp; Events</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Editorial">
+                        <a href="assets/DSC06768-1440.webp" aria-labelledby="title-10" aria-describedby="photo-10">
+                            <img
+                                id="photo-10"
+                                src="assets/DSC06768-600.webp"
+                                alt="Two people posed back to back under blue light"
+                                width="600"
+                                height="800"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-10">Neon Duo</span>
+                            <small>Editorial</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Editorial">
+                        <a href="assets/IMG_0849-1440.webp" aria-labelledby="title-11" aria-describedby="photo-11">
+                            <img
+                                id="photo-11"
+                                src="assets/IMG_0849-600.webp"
+                                alt="Person reaching for a chess piece in a lamplit room"
+                                width="600"
+                                height="801"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-11">Opening Move</span>
+                            <small>Editorial</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Cosplay">
+                        <a href="assets/IMG_1599-1440.webp" aria-labelledby="title-12" aria-describedby="photo-12">
+                            <img
+                                id="photo-12"
+                                src="assets/IMG_1599-600.webp"
+                                alt="Smiling cosplayer in purple and white under neon light"
+                                width="600"
+                                height="801"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-12">Violet Flash</span>
+                            <small>Cosplay</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Portraits">
+                        <a href="assets/IMG_0922-1440.webp" aria-labelledby="title-13" aria-describedby="photo-13">
+                            <img
+                                id="photo-13"
+                                src="assets/IMG_0922-600.webp"
+                                alt="Person in purple beside an arcade cabinet"
+                                width="600"
+                                height="801"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-13">Arcade Seat</span>
+                            <small>Portraits</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Live &amp; Events">
+                        <a href="assets/IMG_5993-1440.webp" aria-labelledby="title-14" aria-describedby="photo-14">
+                            <img
+                                id="photo-14"
+                                src="assets/IMG_5993-600.webp"
+                                alt="Smiling attendee wearing sunglasses at a crowded gathering"
+                                width="600"
+                                height="900"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-14">In the Crowd</span>
+                            <small>Live &amp; Events</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Cosplay">
+                        <a href="assets/IMG_8621-1440.webp" aria-labelledby="title-15" aria-describedby="photo-15">
+                            <img
+                                id="photo-15"
+                                src="assets/IMG_8621-600.webp"
+                                alt="Convention portrait in a blue shirt and white trousers"
+                                width="600"
+                                height="801"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-15">Blue Suiting</span>
+                            <small>Cosplay</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Cosplay">
+                        <a href="assets/IMG_8712-1440.webp" aria-labelledby="title-16" aria-describedby="photo-16">
+                            <img
+                                id="photo-16"
+                                src="assets/IMG_8712-600.webp"
+                                alt="Convention portrait in a black leather coat and round sunglasses"
+                                width="600"
+                                height="900"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-16">Black Leather</span>
+                            <small>Cosplay</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Cosplay">
+                        <a href="assets/IMG_8732-1440.webp" aria-labelledby="title-17" aria-describedby="photo-17">
+                            <img
+                                id="photo-17"
+                                src="assets/IMG_8732-600.webp"
+                                alt="Cosplayer in green framing a painted third eye with both hands"
+                                width="600"
+                                height="801"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-17">Third Eye</span>
+                            <small>Cosplay</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Cosplay">
+                        <a href="assets/IMG_8764-1440.webp" aria-labelledby="title-18" aria-describedby="photo-18">
+                            <img
+                                id="photo-18"
+                                src="assets/IMG_8764-600.webp"
+                                alt="Wizard cosplayer holding up a wand"
+                                width="600"
+                                height="801"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-18">Wand in Hand</span>
+                            <small>Cosplay</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Portraits">
+                        <a href="assets/ash2-1440.webp" aria-labelledby="title-19" aria-describedby="photo-19">
+                            <img
+                                id="photo-19"
+                                src="assets/ash2-600.webp"
+                                alt="Red-haired studio subject glancing over one shoulder"
+                                width="600"
+                                height="900"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-19">Over the Shoulder</span>
+                            <small>Portraits</small>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="frame" data-category="Portraits">
+                        <a href="assets/ash4-1440.webp" aria-labelledby="title-20" aria-describedby="photo-20">
+                            <img
+                                id="photo-20"
+                                src="assets/ash4-600.webp"
+                                alt="Red-haired studio subject with arms crossed against gray"
+                                width="600"
+                                height="900"
+                                loading="lazy"
+                                decoding="async"
+                            >
+                        </a>
+                        <figcaption>
+                            <span id="title-20">Arms Crossed</span>
+                            <small>Portraits</small>
+                        </figcaption>
+                    </figure>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sessions shell" id="sessions" aria-labelledby="sessions-title">
+                <div class="section-heading">
+                    <h2 id="sessions-title">Work with Ethics</h2>
+                </div>
+                <div class="session-grid">
+                    <article>
+                        <h3>Portrait sessions</h3>
+                        <p>Headshots, personal portraits, and artist imagery.</p>
+                        <a class="text-link" href="#inquire" data-project="Portraits">Ask about portraits</a>
+                    </article>
+                    <article>
+                        <h3>Creative shoots</h3>
+                        <p>Concept-driven editorials, styled looks, and cosplay.</p>
+                        <a class="text-link" href="#inquire" data-project="Editorial">Plan a creative shoot</a>
+                    </article>
+                    <article>
+                        <h3>Live &amp; events</h3>
+                        <p>Performances, gatherings, and milestones.</p>
+                        <a class="text-link" href="#inquire" data-project="Live &amp; Events">Ask about event coverage</a>
+                    </article>
+                </div>
+                <section id="quick-orders" class="quick-orders" aria-labelledby="checkout-title">
+                    <h3 id="checkout-title">Square checkout</h3>
+                    <p>For fixed-price offers, pay through Square. For a custom shoot or to confirm a date, send an inquiry.</p>
+                    <div id="checkout-links" class="session-grid" hidden></div>
+                    <p id="checkout-unavailable">Online checkout is coming soon. <a href="#inquire">Inquire about a session</a>.</p>
+                </section>
+            </section>
+
+            <section class="contact" id="inquire" aria-labelledby="contact-title" tabindex="-1">
+                <div class="shell contact-grid">
+                    <div>
+                        <h2 id="contact-title">Tell me about your shoot</h2>
+                        <p>Share what you’re planning, where it’s happening, and when you’d like to shoot.</p>
+                    </div>
+
+                    <form id="inquiry" action="about:blank" method="post" aria-labelledby="contact-title" aria-describedby="form-help">
+                        <p id="form-help">Enter your contact information and a short description of the shoot.</p>
+                        <div class="form-grid">
+                            <label for="name">Name (required)
+                                <input id="name" name="name" autocomplete="name" required maxlength="120">
+                            </label>
+                            <label for="email">Email (required)
+                                <input id="email" name="email" type="email" autocomplete="email" required maxlength="180">
+                            </label>
+                            <label for="project">Shoot type (required)
+                                <select id="project" name="project" required>
+                                    <option value="">Select a shoot type</option>
+                                    <option>Portraits</option>
+                                    <option>Editorial</option>
+                                    <option>Live &amp; Events</option>
+                                    <option>Cosplay</option>
+                                    <option>Other</option>
+                                </select>
+                            </label>
+                            <label for="date">Preferred date (optional)
+                                <input id="date" name="date" type="date">
+                            </label>
+                        </div>
+                        <label for="location">Location (optional)
+                            <input id="location" name="location" maxlength="180">
+                        </label>
+                        <label for="message">Project details (required)
+                            <textarea id="message" name="message" rows="4" maxlength="3000" required></textarea>
+                        </label>
+                        <p id="inquiry-unavailable">Online submission is coming soon.</p>
+                        <button class="button" id="send-inquiry" type="submit" aria-describedby="inquiry-unavailable" disabled>Send inquiry</button>
+                        <p id="form-note" role="status"></p>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer shell">
+            <a class="wordmark" href="#top">
+                <span class="mark" aria-hidden="true"></span>
+                Eyes of Ethics
+            </a>
+            <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+        </footer>
+
+        <dialog id="lightbox" aria-labelledby="viewer-title">
+            <div class="viewer-top">
+                <h2 id="viewer-title">Portfolio image</h2>
+                <button type="button" data-close autofocus>Close</button>
+            </div>
+            <img id="large-photo" alt="">
+            <div class="viewer-bottom">
+                <button type="button" data-step="-1" aria-label="Previous photograph">←</button>
+                <p id="photo-caption" role="status">
+                    <span id="photo-title"></span>
+                    <span id="photo-count"></span>
+                    <span class="sr-only" id="photo-description"></span>
+                </p>
+                <button type="button" data-step="1" aria-label="Next photograph">→</button>
+            </div>
+        </dialog>
+    </body>
+</html>
